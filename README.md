@@ -4,11 +4,12 @@
 ### Features
 - Structured around squares instead of columns
 - Dynamically adds another square if content spills over the first(horizontally or vertically)
+- Modals, pre-styled button classes, animations
 - Simple plugable nav bar
 - Move from page to page with animated 3d structure (think rubiks cube)
+- modes that change whole animation structure (rubiks, rolling-pin, sphere, flick) for accoridans, scoll, buttons etc.
 - Does _not_ require jQuery
-- Modals, pre-styled button classes, animations
-- Pre-made color schemes or create your own (backgrounds, text-tags,nav bar, buttons, etc.)
+- Pre-made color schemes or create your own (backgrounds, text-tags,nav bar, buttons, etc.) {also can change color order}
 
 ### Screens
 - Phones: 2x3 for vertical 3x2 for horizontal
