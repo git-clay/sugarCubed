@@ -2,16 +2,19 @@
 
 /***CORE***/
 @import "variables";
+@import "color-variables";
 @import "mixins";
 @import "buttons";
 @import "images";
 @import "forms";
-@import "colors";
-.foo{
-	content: map-values($musk);
-	content: map-get($musk,'a')
-}
 
+
+@include color-scheme();
+
+body{
+background: black
+
+}
 /***COMPONENTS***/
 @import "dropdowns";
 @import "nav";

@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-// var gutil = require('gulp-util');
+var gutil = require('gulp-util');
 // var bower = require('bower');
 var concat = require('gulp-concat'); //concat files from common directory
 var sass = require('gulp-sass'); //sass->css
@@ -7,6 +7,11 @@ var minifyCss = require('gulp-minify-css'); //minify css
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename'); // allows to rename file (.min.css)
 // var sh = require('shelljs');
+var plumber = require('gulp-plumber');
+var liveReload = require('gulp-livereload');
+var compass = require('gulp-compass');
+
+
 
 var paths = {
   sass: ['./scss/**/*.scss',
@@ -16,6 +21,10 @@ var paths = {
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/sugar-cubed.scss')
+    .pipe(plumber(function(error){
+      gutil.log(error.message);
+      this.emit('end');
+    }))
     .pipe(sass({
       errLogToConsole: true
     }))
@@ -29,7 +38,11 @@ gulp.task('sass', function(done) {
 });
 gulp.task('scripts', function(done) {
   gulp.src(paths.js)
-    .pipe(concat('all.js'))
+    .pipe(plumber(function(error){
+      gutil.log(error.message);
+      this.emit('end');
+    }))
+    .pipe(concat('*.js'))
     .pipe(gulp.dest('./dist/js/'))
     .pipe(rename( 'sugar-cubed.min.js' ))
     .pipe(uglify())
@@ -38,6 +51,7 @@ gulp.task('scripts', function(done) {
 });
 
 gulp.task('watch', function() {
+  liveReload.listen();
   gulp.watch(paths.sass, ['sass']);
   gulp.watch(paths.js,['scripts'])
 });

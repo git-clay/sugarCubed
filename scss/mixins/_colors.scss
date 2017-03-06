@@ -1,0 +1,36 @@
+/***Main***/
+@each $name, $value in $colors{
+	.#{$name}{
+		content: map-values($value)
+	}
+}
+@mixin color-scheme(){
+@each $name, $value in $colors{
+	.#{$name}{
+		color: map-get($value,'e')
+	}
+}
+	// .foo1{
+	// 	// color: map-values($musk);
+	// 	color: map-get($word,'a')
+	// }
+	// .foo2{
+	// 	color: map-get($blue,'b')
+	// }.foo3{
+	// 	color: map-get($micah,'c')
+	// }.foo4{
+	// 	color: map-get($fire,'d')
+	// }.foo5{
+	// 	color: map-get($icefire,'e')
+	// }
+}
+/***Background***/
+/***Text***/
+/***Links***/
+/***Buttons***/
+/***Borders***/
+/***Nav***/
+/***Lists***/
+/***Hover***/
+
+
