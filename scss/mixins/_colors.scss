@@ -1,15 +1,29 @@
 /***Main***/
-@each $name, $value in $colors{
-	.#{$name}{
-		content: map-values($value)
-	}
-}
+
 @mixin color-scheme(){
-@each $name, $value in $colors{
-	.#{$name}{
-		color: map-get($value,'e')
+	@each $name, $value in $colors{
+		// $bgcolor: nth($value,1);
+		$h1: nth($value,1);
+		$h2: nth($value,2);
+		$h3: nth($value,3);
+		$h4: nth($value,4);
+		$h5: nth($value,5);
+		// $h6: nth($value,2)
+		.#{$name}{
+			h1{
+				color: $h1 };			
+			h2{
+				color: $h2 };			
+			h3{
+				color: $h3 };			
+			h4{
+				color: $h4 };			
+			h5{
+				color: $h5 };			
+
+
+		}
 	}
-}
 	// .foo1{
 	// 	// color: map-values($musk);
 	// 	color: map-get($word,'a')

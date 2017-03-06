@@ -1,299 +1,5 @@
 /***CORE***/
 /***Main***/
-.musk {
-  content: #b6940e, #004f94, #911002, #1e2d47, #be6600; }
-
-.grandfather {
-  content: #bb1515, #e0cda7, #2a334f, #6b4423, #ac8f57; }
-
-.micah {
-  content: #979A84, #6F423A, #4F2950, #FF2734, #ffffff; }
-
-.hotoffice {
-  content: #8c834e, #bd9f30, #e9b113, #ffe986, #ff793d; }
-
-.blued {
-  content: #60626b, #abb6a0, #d6d6c3, #757d83, #565549; }
-
-.sunday {
-  content: #b09763, #dfd7c6, #7d7875, #668a84, #89b09f; }
-
-.oldbook {
-  content: #bd654d, #cbaa99, #9a9460, #845f0e, #312f1a; }
-
-.construction {
-  content: #ff5722, #9e9e9e, #607d8b, #000000, #ffffff; }
-
-.doctor {
-  content: #d5fffe, #b7f4f3, #b21c1c, #fcffff, #82c3c5; }
-
-.standard {
-  content: #ff0000, #00ff00, #0000ff, #eeeeee, #000000; }
-
-.fifty {
-  content: #999999, #777777, #555555, #333333, #111111; }
-
-.blueSet {
-  content: #011f4b, #03396c, #005b96, #6497b1, #b3cde0; }
-
-.turquise {
-  content: #b3ecec, #89ecda, #43e8d8, #40e0d0, #3bd6c6; }
-
-.tealSet {
-  content: #007777, #006666, #005555, #004444, #003333; }
-
-.goldSet {
-  content: #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73; }
-
-.purpleSet {
-  content: #efbbff, #d896ff, #be29ec, #800080, #660066; }
-
-.violetSet {
-  content: #ffffff, #e5d0ff, #dabcff, #cca3ff, #bf8bff; }
-
-.pastel {
-  content: #e1f7d5, #ffbdbd, #c9c9ff, #ffffff, #f1cbff; }
-
-.greenSet {
-  content: #52bf90, #49ab81, #419873, #398564, #317256; }
-
-.softgreen {
-  content: #e8e0ac, #e8e09c, #e2dc82, #d7d18a, #d0c986; }
-
-.darkGreen {
-  content: #295f48, #204c39, #18392b, #eeeeee, #000000; }
-
-.limeSet {
-  content: #4d7f17, #6bb120, #8ae429, #9afe2e, #aefe57; }
-
-.cyanSet {
-  content: #e8fff4, #d3fff4, #b5ffee, #93ffe4, #7affdd; }
-
-.greyedPrimary {
-  content: #8b8589, #989898, #838996, #979aaa, #4c516d; }
-
-.bubblegum {
-  content: #ffc2cd, #ff93ac, #ff6289, #fc3468, #ff084a; }
-
-.pinkSet {
-  content: #ff77aa, #ff99cc, #ffbbee, #ff5588, #ff3377; }
-
-.aquaSet {
-  content: #55ffff, #00ffff, #0000ff, #38eeff, #55ffee; }
-
-.redBlack {
-  content: #ff0000, #bf0000, #800000, #400000, #000000; }
-
-.bright {
-  content: #00ffff, #00ff00, #ffff00, #ffba00, #ff0000; }
-
-.midnight {
-  content: #373854, #493267, #9e379f, #e86af0, #7bb3ff; }
-
-.camplight {
-  content: #2d2222, #3e3f4d, #6f6441, #949159, #aec971; }
-
-.campfire {
-  content: #23191a, #4b332c, #824634, #be7864, #6b7074; }
-
-.seafoam {
-  content: #a3c1ad, #a0d6b4, #5f9ea0, #317873, #49796b; }
-
-.ocean {
-  content: #c6c386, #7df9ff, #0095b6, #0892d0, #000000; }
-
-.deepOcean {
-  content: #19817e, #0c5149, #0a423b, #0c3830, #02130f; }
-
-.lake {
-  content: #e5fcc2, #d8fcc2, #9de0ad, #45ada8, #547980; }
-
-.puddle {
-  content: #ffffff, #b1ffce, #8cffc8, #66ecff, #7dd5ff; }
-
-.nordicNight {
-  content: #dde2e3, #9aacb8, #b37c57, #3c455c, #60412b; }
-
-.smokeybear {
-  content: #539b4b, #9cca6c, #ffea80, #ff984a, #d94322; }
-
-.mermaid {
-  content: #a0ffdb, #7fddea, #839cf2, #a15fd8, #a34aae; }
-
-.treasure {
-  content: #1d6f5d, #247e61, #7deec9, #64dbba, #f4b318; }
-
-.murky {
-  content: #82bda9, #6eb496, #4cab96, #469c84, #2e9070; }
-
-.morning {
-  content: #000000, #e49e3d, #e4ff95, #0ad79e, #221f5e; }
-
-.winterbee {
-  content: #66608d, #524a6b, #3b3756, #f1f272, #d5d667; }
-
-.beach {
-  content: #96ceb4, #ffeead, #ff6f69, #ffcc5c, #88d8b0; }
-
-.summer {
-  content: #ffbe4f, #6bd2db, #0ea7b5, #0c457d, #e8702a; }
-
-.winterCabin {
-  content: #1c2d46, #293b53, #40556e, #669ad0, #e3dbe8; }
-
-.pumpkinSpice {
-  content: #ec8407, #e5820f, #cd7200, #d47609, #d4700f; }
-
-.autumn {
-  content: #e7a82e, #f08c11, #e37327, #bf8c2c, #a96613; }
-
-.leafPile {
-  content: #b5302b, #e77431, #503431, #55a393, #ab6c57; }
-
-.sage {
-  content: #8f9779, #78866b, #738276, #738678, #4d5d53; }
-
-.decay {
-  content: #ffe3d5, #ea9b83, #8e8881, #356a57, #0c2a34; }
-
-.twilightwoods {
-  content: #779c76, #4c564d, #959866, #d6d68a, #ddff7d; }
-
-.redwood {
-  content: #7a4141, #9a4945, #bf6f60, #4a553d, #768752; }
-
-.rose {
-  content: #638d8d, #83aab7, #b4a8b7, #bd8e99, #b45e72; }
-
-.roseyRed {
-  content: #e58a8a, #b67777, #905f5f, #b67a7a, #ab6876; }
-
-.stump {
-  content: #4b473b, #54473f, #56452c, #493d18, #403100; }
-
-.leafy {
-  content: #719f46, #679c63, #6a8d41, #48814c, #4c722f; }
-
-.oakShadow {
-  content: #eeeed1, #809552, #6b7f42, #5c5c5c, #222222; }
-
-.rainforest {
-  content: #b8ee85, #7adb71, #50b065, #369077, #ae5d6f; }
-
-.moss {
-  content: #bd654d, #cbaa99, #9a9460, #845f0e, #312f1a; }
-
-.fire {
-  content: #c11d1d, #c1461d, #d28231, #c5a645, #c4c545; }
-
-.darkfire {
-  content: #fdcf58, #757676, #f27d0c, #800909, #f07f13; }
-
-.hotcoals {
-  content: #1c1c1c, #ec4700, #fb5923, #f2ba0d, #e5dcb6; }
-
-.icefire {
-  content: #fe7200, #e5e327, #77e2ff, #08b1e3, #1485dc; }
-
-.firewater {
-  content: #ff0000, #ffa700, #ffffff, #00f9ff, #00c1bc; }
-
-.hotcold {
-  content: #0b0200, #ff2700, #2d4940, #bcfffa, #ffffff; }
-
-.water {
-  content: #00c5ff, #56d0ff, #a3dcff, #a9f9ff, #e1fffd; }
-
-.earth {
-  content: #7c3817, #c98f39, #007c7c, #caf2e5, #687237; }
-
-.wind {
-  content: #ccd6cd, #afbbbf, #9fb2b0, #bd99ae, #8c7e9f; }
-
-.armyCamo {
-  content: #604439, #9e9a75, #ac222e, #41533b, #554840; }
-
-.armyBrown {
-  content: #4f3e37, #404f3d, #465840, #525e41, #60654a; }
-
-.bookface {
-  content: #3b5998, #8b9dc3, #dfe3ee, #f7f7f7, #ffffff; }
-
-.oogle {
-  content: #008744, #0057e7, #d62d20, #ffa700, #ffffff; }
-
-.bootstring {
-  content: #d9534f, #f9f9f9, #5bc0de, #5cb85c, #428bca; }
-
-.tweeter {
-  content: #326ada, #d4d8d4, #433e90, #a19c9c, #d2d2d2; }
-
-.toob {
-  content: #cc181e, #2793e8, #559900, #666666, #f1f1f1; }
-
-.caucasion {
-  content: #ffe0bd, #ffcd94, #eac806, #ffad60, #ffe39f; }
-
-.bronzer {
-  content: #ddc4be, #ddb2a6, #c1907f, #a56b57, #a86048; }
-
-.gryffindor {
-  content: #740001, #ae0001, #eeba30, #d3a625, #000000; }
-
-.ravenclaw {
-  content: #0e1a40, #222f5b, #5d5d5d, #946b2d, #000000; }
-
-.slytherin {
-  content: #1a472a, #2a623d, #5d5d5d, #aaaaaa, #000000; }
-
-.hufflepuff {
-  content: #ecb939, #f0c75e, #726255, #372e29, #000000; }
-
-.fe-man {
-  content: #771414, #beba46, #8bd3fb, #bcb841, #790d0d; }
-
-.poke {
-  content: #ee1515, #f00000, #222224, #f0f0f0, #f0f0f0; }
-
-.rasta {
-  content: #e20d0d, #f0d817, #3eb308, #bbbbbb, #aaaaaa; }
-
-.cappuccino {
-  content: #4b3832, #854442, #fff4e6, #3c2f2f, #be9b7b; }
-
-.icecream {
-  content: #bbcbdb, #9ebd9e, #dd855c, #f1e8ca, #745151; }
-
-.mint {
-  content: #c6c386, #c3eee7, #5b391e, #87c6c3, #66bbae; }
-
-.lemonade {
-  content: #ecc9d1, #ecd5cf, #f2e1d3, #f0e8d5, #f0f2d5; }
-
-.melon {
-  content: #a9ff85, #7ab258, #ff7e7e, #ffa4ce, #f9547e; }
-
-.licorice {
-  content: #f7de82, #bbe0c4, #a286aa, #613246, #251c3f; }
-
-.pencil {
-  content: #e3c783, #e7cb95, #2f2f2f, #909090, #909090; }
-
-.money {
-  content: #3e9c35, #168118, #157811, #036704, #084f09; }
-
-.globe {
-  content: #eceadc, #b8a488, #8eb572, #356392, #ff7913; }
-
-.coldsteel {
-  content: #000000, #656565, #bdbdbd, #00d7f6, #00355c; }
-
-.lightRetro {
-  content: #e5c3c6, #e1e9b7, #f96161, #bcd2d0, #d0b783; }
-
-.oldCatalog {
-  content: #edc951, #eb6841, #cc2a36, #4f372d, #00a0b0; }
-
 /***Background***/
 /***Text***/
 /***Links***/
@@ -308,298 +14,1474 @@
   white-space: nowrap;
   vertical-align: middle; }
 
-.musk {
+.musk h1 {
+  color: #b6940e; }
+
+.musk h2 {
+  color: #004f94; }
+
+.musk h3 {
+  color: #911002; }
+
+.musk h4 {
+  color: #1e2d47; }
+
+.musk h5 {
   color: #be6600; }
 
-.grandfather {
+.grandfather h1 {
+  color: #bb1515; }
+
+.grandfather h2 {
+  color: #e0cda7; }
+
+.grandfather h3 {
+  color: #2a334f; }
+
+.grandfather h4 {
+  color: #6b4423; }
+
+.grandfather h5 {
   color: #ac8f57; }
 
-.micah {
+.micah h1 {
+  color: #979A84; }
+
+.micah h2 {
+  color: #6F423A; }
+
+.micah h3 {
+  color: #4F2950; }
+
+.micah h4 {
+  color: #FF2734; }
+
+.micah h5 {
   color: #ffffff; }
 
-.hotoffice {
+.hotoffice h1 {
+  color: #8c834e; }
+
+.hotoffice h2 {
+  color: #bd9f30; }
+
+.hotoffice h3 {
+  color: #e9b113; }
+
+.hotoffice h4 {
+  color: #ffe986; }
+
+.hotoffice h5 {
   color: #ff793d; }
 
-.blued {
+.blued h1 {
+  color: #60626b; }
+
+.blued h2 {
+  color: #abb6a0; }
+
+.blued h3 {
+  color: #d6d6c3; }
+
+.blued h4 {
+  color: #757d83; }
+
+.blued h5 {
   color: #565549; }
 
-.sunday {
+.sunday h1 {
+  color: #b09763; }
+
+.sunday h2 {
+  color: #dfd7c6; }
+
+.sunday h3 {
+  color: #7d7875; }
+
+.sunday h4 {
+  color: #668a84; }
+
+.sunday h5 {
   color: #89b09f; }
 
-.oldbook {
+.oldbook h1 {
+  color: #bd654d; }
+
+.oldbook h2 {
+  color: #cbaa99; }
+
+.oldbook h3 {
+  color: #9a9460; }
+
+.oldbook h4 {
+  color: #845f0e; }
+
+.oldbook h5 {
   color: #312f1a; }
 
-.construction {
+.construction h1 {
+  color: #ff5722; }
+
+.construction h2 {
+  color: #9e9e9e; }
+
+.construction h3 {
+  color: #607d8b; }
+
+.construction h4 {
+  color: #000000; }
+
+.construction h5 {
   color: #ffffff; }
 
-.doctor {
+.doctor h1 {
+  color: #d5fffe; }
+
+.doctor h2 {
+  color: #b7f4f3; }
+
+.doctor h3 {
+  color: #b21c1c; }
+
+.doctor h4 {
+  color: #fcffff; }
+
+.doctor h5 {
   color: #82c3c5; }
 
-.standard {
-  color: #000000; }
-
-.fifty {
-  color: #111111; }
-
-.blueSet {
-  color: #b3cde0; }
-
-.turquise {
-  color: #3bd6c6; }
-
-.tealSet {
-  color: #003333; }
-
-.goldSet {
-  color: #ffdc73; }
-
-.purpleSet {
-  color: #660066; }
-
-.violetSet {
-  color: #bf8bff; }
-
-.pastel {
-  color: #f1cbff; }
-
-.greenSet {
-  color: #317256; }
-
-.softgreen {
-  color: #d0c986; }
-
-.darkGreen {
-  color: #000000; }
-
-.limeSet {
-  color: #aefe57; }
-
-.cyanSet {
-  color: #7affdd; }
-
-.greyedPrimary {
-  color: #4c516d; }
-
-.bubblegum {
-  color: #ff084a; }
-
-.pinkSet {
-  color: #ff3377; }
-
-.aquaSet {
-  color: #55ffee; }
-
-.redBlack {
-  color: #000000; }
-
-.bright {
+.standard h1 {
   color: #ff0000; }
 
-.midnight {
+.standard h2 {
+  color: #00ff00; }
+
+.standard h3 {
+  color: #0000ff; }
+
+.standard h4 {
+  color: #eeeeee; }
+
+.standard h5 {
+  color: #000000; }
+
+.fifty h1 {
+  color: #999999; }
+
+.fifty h2 {
+  color: #777777; }
+
+.fifty h3 {
+  color: #555555; }
+
+.fifty h4 {
+  color: #333333; }
+
+.fifty h5 {
+  color: #111111; }
+
+.blueSet h1 {
+  color: #011f4b; }
+
+.blueSet h2 {
+  color: #03396c; }
+
+.blueSet h3 {
+  color: #005b96; }
+
+.blueSet h4 {
+  color: #6497b1; }
+
+.blueSet h5 {
+  color: #b3cde0; }
+
+.turquise h1 {
+  color: #b3ecec; }
+
+.turquise h2 {
+  color: #89ecda; }
+
+.turquise h3 {
+  color: #43e8d8; }
+
+.turquise h4 {
+  color: #40e0d0; }
+
+.turquise h5 {
+  color: #3bd6c6; }
+
+.tealSet h1 {
+  color: #007777; }
+
+.tealSet h2 {
+  color: #006666; }
+
+.tealSet h3 {
+  color: #005555; }
+
+.tealSet h4 {
+  color: #004444; }
+
+.tealSet h5 {
+  color: #003333; }
+
+.goldSet h1 {
+  color: #a67c00; }
+
+.goldSet h2 {
+  color: #bf9b30; }
+
+.goldSet h3 {
+  color: #ffbf00; }
+
+.goldSet h4 {
+  color: #ffcf40; }
+
+.goldSet h5 {
+  color: #ffdc73; }
+
+.purpleSet h1 {
+  color: #efbbff; }
+
+.purpleSet h2 {
+  color: #d896ff; }
+
+.purpleSet h3 {
+  color: #be29ec; }
+
+.purpleSet h4 {
+  color: #800080; }
+
+.purpleSet h5 {
+  color: #660066; }
+
+.violetSet h1 {
+  color: #ffffff; }
+
+.violetSet h2 {
+  color: #e5d0ff; }
+
+.violetSet h3 {
+  color: #dabcff; }
+
+.violetSet h4 {
+  color: #cca3ff; }
+
+.violetSet h5 {
+  color: #bf8bff; }
+
+.pastel h1 {
+  color: #e1f7d5; }
+
+.pastel h2 {
+  color: #ffbdbd; }
+
+.pastel h3 {
+  color: #c9c9ff; }
+
+.pastel h4 {
+  color: #ffffff; }
+
+.pastel h5 {
+  color: #f1cbff; }
+
+.greenSet h1 {
+  color: #52bf90; }
+
+.greenSet h2 {
+  color: #49ab81; }
+
+.greenSet h3 {
+  color: #419873; }
+
+.greenSet h4 {
+  color: #398564; }
+
+.greenSet h5 {
+  color: #317256; }
+
+.softgreen h1 {
+  color: #e8e0ac; }
+
+.softgreen h2 {
+  color: #e8e09c; }
+
+.softgreen h3 {
+  color: #e2dc82; }
+
+.softgreen h4 {
+  color: #d7d18a; }
+
+.softgreen h5 {
+  color: #d0c986; }
+
+.darkGreen h1 {
+  color: #295f48; }
+
+.darkGreen h2 {
+  color: #204c39; }
+
+.darkGreen h3 {
+  color: #18392b; }
+
+.darkGreen h4 {
+  color: #eeeeee; }
+
+.darkGreen h5 {
+  color: #000000; }
+
+.limeSet h1 {
+  color: #4d7f17; }
+
+.limeSet h2 {
+  color: #6bb120; }
+
+.limeSet h3 {
+  color: #8ae429; }
+
+.limeSet h4 {
+  color: #9afe2e; }
+
+.limeSet h5 {
+  color: #aefe57; }
+
+.cyanSet h1 {
+  color: #e8fff4; }
+
+.cyanSet h2 {
+  color: #d3fff4; }
+
+.cyanSet h3 {
+  color: #b5ffee; }
+
+.cyanSet h4 {
+  color: #93ffe4; }
+
+.cyanSet h5 {
+  color: #7affdd; }
+
+.greyedPrimary h1 {
+  color: #8b8589; }
+
+.greyedPrimary h2 {
+  color: #989898; }
+
+.greyedPrimary h3 {
+  color: #838996; }
+
+.greyedPrimary h4 {
+  color: #979aaa; }
+
+.greyedPrimary h5 {
+  color: #4c516d; }
+
+.bubblegum h1 {
+  color: #ffc2cd; }
+
+.bubblegum h2 {
+  color: #ff93ac; }
+
+.bubblegum h3 {
+  color: #ff6289; }
+
+.bubblegum h4 {
+  color: #fc3468; }
+
+.bubblegum h5 {
+  color: #ff084a; }
+
+.pinkSet h1 {
+  color: #ff77aa; }
+
+.pinkSet h2 {
+  color: #ff99cc; }
+
+.pinkSet h3 {
+  color: #ffbbee; }
+
+.pinkSet h4 {
+  color: #ff5588; }
+
+.pinkSet h5 {
+  color: #ff3377; }
+
+.aquaSet h1 {
+  color: #55ffff; }
+
+.aquaSet h2 {
+  color: #00ffff; }
+
+.aquaSet h3 {
+  color: #0000ff; }
+
+.aquaSet h4 {
+  color: #38eeff; }
+
+.aquaSet h5 {
+  color: #55ffee; }
+
+.redBlack h1 {
+  color: #ff0000; }
+
+.redBlack h2 {
+  color: #bf0000; }
+
+.redBlack h3 {
+  color: #800000; }
+
+.redBlack h4 {
+  color: #400000; }
+
+.redBlack h5 {
+  color: #000000; }
+
+.bright h1 {
+  color: #00ffff; }
+
+.bright h2 {
+  color: #00ff00; }
+
+.bright h3 {
+  color: #ffff00; }
+
+.bright h4 {
+  color: #ffba00; }
+
+.bright h5 {
+  color: #ff0000; }
+
+.midnight h1 {
+  color: #373854; }
+
+.midnight h2 {
+  color: #493267; }
+
+.midnight h3 {
+  color: #9e379f; }
+
+.midnight h4 {
+  color: #e86af0; }
+
+.midnight h5 {
   color: #7bb3ff; }
 
-.camplight {
+.camplight h1 {
+  color: #2d2222; }
+
+.camplight h2 {
+  color: #3e3f4d; }
+
+.camplight h3 {
+  color: #6f6441; }
+
+.camplight h4 {
+  color: #949159; }
+
+.camplight h5 {
   color: #aec971; }
 
-.campfire {
+.campfire h1 {
+  color: #23191a; }
+
+.campfire h2 {
+  color: #4b332c; }
+
+.campfire h3 {
+  color: #824634; }
+
+.campfire h4 {
+  color: #be7864; }
+
+.campfire h5 {
   color: #6b7074; }
 
-.seafoam {
+.seafoam h1 {
+  color: #a3c1ad; }
+
+.seafoam h2 {
+  color: #a0d6b4; }
+
+.seafoam h3 {
+  color: #5f9ea0; }
+
+.seafoam h4 {
+  color: #317873; }
+
+.seafoam h5 {
   color: #49796b; }
 
-.ocean {
+.ocean h1 {
+  color: #c6c386; }
+
+.ocean h2 {
+  color: #7df9ff; }
+
+.ocean h3 {
+  color: #0095b6; }
+
+.ocean h4 {
+  color: #0892d0; }
+
+.ocean h5 {
   color: #000000; }
 
-.deepOcean {
+.deepOcean h1 {
+  color: #19817e; }
+
+.deepOcean h2 {
+  color: #0c5149; }
+
+.deepOcean h3 {
+  color: #0a423b; }
+
+.deepOcean h4 {
+  color: #0c3830; }
+
+.deepOcean h5 {
   color: #02130f; }
 
-.lake {
+.lake h1 {
+  color: #e5fcc2; }
+
+.lake h2 {
+  color: #d8fcc2; }
+
+.lake h3 {
+  color: #9de0ad; }
+
+.lake h4 {
+  color: #45ada8; }
+
+.lake h5 {
   color: #547980; }
 
-.puddle {
+.puddle h1 {
+  color: #ffffff; }
+
+.puddle h2 {
+  color: #b1ffce; }
+
+.puddle h3 {
+  color: #8cffc8; }
+
+.puddle h4 {
+  color: #66ecff; }
+
+.puddle h5 {
   color: #7dd5ff; }
 
-.nordicNight {
+.nordicNight h1 {
+  color: #dde2e3; }
+
+.nordicNight h2 {
+  color: #9aacb8; }
+
+.nordicNight h3 {
+  color: #b37c57; }
+
+.nordicNight h4 {
+  color: #3c455c; }
+
+.nordicNight h5 {
   color: #60412b; }
 
-.smokeybear {
+.smokeybear h1 {
+  color: #539b4b; }
+
+.smokeybear h2 {
+  color: #9cca6c; }
+
+.smokeybear h3 {
+  color: #ffea80; }
+
+.smokeybear h4 {
+  color: #ff984a; }
+
+.smokeybear h5 {
   color: #d94322; }
 
-.mermaid {
+.mermaid h1 {
+  color: #a0ffdb; }
+
+.mermaid h2 {
+  color: #7fddea; }
+
+.mermaid h3 {
+  color: #839cf2; }
+
+.mermaid h4 {
+  color: #a15fd8; }
+
+.mermaid h5 {
   color: #a34aae; }
 
-.treasure {
+.treasure h1 {
+  color: #1d6f5d; }
+
+.treasure h2 {
+  color: #247e61; }
+
+.treasure h3 {
+  color: #7deec9; }
+
+.treasure h4 {
+  color: #64dbba; }
+
+.treasure h5 {
   color: #f4b318; }
 
-.murky {
+.murky h1 {
+  color: #82bda9; }
+
+.murky h2 {
+  color: #6eb496; }
+
+.murky h3 {
+  color: #4cab96; }
+
+.murky h4 {
+  color: #469c84; }
+
+.murky h5 {
   color: #2e9070; }
 
-.morning {
+.morning h1 {
+  color: #000000; }
+
+.morning h2 {
+  color: #e49e3d; }
+
+.morning h3 {
+  color: #e4ff95; }
+
+.morning h4 {
+  color: #0ad79e; }
+
+.morning h5 {
   color: #221f5e; }
 
-.winterbee {
+.winterbee h1 {
+  color: #66608d; }
+
+.winterbee h2 {
+  color: #524a6b; }
+
+.winterbee h3 {
+  color: #3b3756; }
+
+.winterbee h4 {
+  color: #f1f272; }
+
+.winterbee h5 {
   color: #d5d667; }
 
-.beach {
+.beach h1 {
+  color: #96ceb4; }
+
+.beach h2 {
+  color: #ffeead; }
+
+.beach h3 {
+  color: #ff6f69; }
+
+.beach h4 {
+  color: #ffcc5c; }
+
+.beach h5 {
   color: #88d8b0; }
 
-.summer {
+.summer h1 {
+  color: #ffbe4f; }
+
+.summer h2 {
+  color: #6bd2db; }
+
+.summer h3 {
+  color: #0ea7b5; }
+
+.summer h4 {
+  color: #0c457d; }
+
+.summer h5 {
   color: #e8702a; }
 
-.winterCabin {
+.winterCabin h1 {
+  color: #1c2d46; }
+
+.winterCabin h2 {
+  color: #293b53; }
+
+.winterCabin h3 {
+  color: #40556e; }
+
+.winterCabin h4 {
+  color: #669ad0; }
+
+.winterCabin h5 {
   color: #e3dbe8; }
 
-.pumpkinSpice {
+.pumpkinSpice h1 {
+  color: #ec8407; }
+
+.pumpkinSpice h2 {
+  color: #e5820f; }
+
+.pumpkinSpice h3 {
+  color: #cd7200; }
+
+.pumpkinSpice h4 {
+  color: #d47609; }
+
+.pumpkinSpice h5 {
   color: #d4700f; }
 
-.autumn {
+.autumn h1 {
+  color: #e7a82e; }
+
+.autumn h2 {
+  color: #f08c11; }
+
+.autumn h3 {
+  color: #e37327; }
+
+.autumn h4 {
+  color: #bf8c2c; }
+
+.autumn h5 {
   color: #a96613; }
 
-.leafPile {
+.leafPile h1 {
+  color: #b5302b; }
+
+.leafPile h2 {
+  color: #e77431; }
+
+.leafPile h3 {
+  color: #503431; }
+
+.leafPile h4 {
+  color: #55a393; }
+
+.leafPile h5 {
   color: #ab6c57; }
 
-.sage {
+.sage h1 {
+  color: #8f9779; }
+
+.sage h2 {
+  color: #78866b; }
+
+.sage h3 {
+  color: #738276; }
+
+.sage h4 {
+  color: #738678; }
+
+.sage h5 {
   color: #4d5d53; }
 
-.decay {
+.decay h1 {
+  color: #ffe3d5; }
+
+.decay h2 {
+  color: #ea9b83; }
+
+.decay h3 {
+  color: #8e8881; }
+
+.decay h4 {
+  color: #356a57; }
+
+.decay h5 {
   color: #0c2a34; }
 
-.twilightwoods {
+.twilightwoods h1 {
+  color: #779c76; }
+
+.twilightwoods h2 {
+  color: #4c564d; }
+
+.twilightwoods h3 {
+  color: #959866; }
+
+.twilightwoods h4 {
+  color: #d6d68a; }
+
+.twilightwoods h5 {
   color: #ddff7d; }
 
-.redwood {
+.redwood h1 {
+  color: #7a4141; }
+
+.redwood h2 {
+  color: #9a4945; }
+
+.redwood h3 {
+  color: #bf6f60; }
+
+.redwood h4 {
+  color: #4a553d; }
+
+.redwood h5 {
   color: #768752; }
 
-.rose {
+.rose h1 {
+  color: #638d8d; }
+
+.rose h2 {
+  color: #83aab7; }
+
+.rose h3 {
+  color: #b4a8b7; }
+
+.rose h4 {
+  color: #bd8e99; }
+
+.rose h5 {
   color: #b45e72; }
 
-.roseyRed {
+.roseyRed h1 {
+  color: #e58a8a; }
+
+.roseyRed h2 {
+  color: #b67777; }
+
+.roseyRed h3 {
+  color: #905f5f; }
+
+.roseyRed h4 {
+  color: #b67a7a; }
+
+.roseyRed h5 {
   color: #ab6876; }
 
-.stump {
+.stump h1 {
+  color: #4b473b; }
+
+.stump h2 {
+  color: #54473f; }
+
+.stump h3 {
+  color: #56452c; }
+
+.stump h4 {
+  color: #493d18; }
+
+.stump h5 {
   color: #403100; }
 
-.leafy {
+.leafy h1 {
+  color: #719f46; }
+
+.leafy h2 {
+  color: #679c63; }
+
+.leafy h3 {
+  color: #6a8d41; }
+
+.leafy h4 {
+  color: #48814c; }
+
+.leafy h5 {
   color: #4c722f; }
 
-.oakShadow {
+.oakShadow h1 {
+  color: #eeeed1; }
+
+.oakShadow h2 {
+  color: #809552; }
+
+.oakShadow h3 {
+  color: #6b7f42; }
+
+.oakShadow h4 {
+  color: #5c5c5c; }
+
+.oakShadow h5 {
   color: #222222; }
 
-.rainforest {
+.rainforest h1 {
+  color: #b8ee85; }
+
+.rainforest h2 {
+  color: #7adb71; }
+
+.rainforest h3 {
+  color: #50b065; }
+
+.rainforest h4 {
+  color: #369077; }
+
+.rainforest h5 {
   color: #ae5d6f; }
 
-.moss {
+.moss h1 {
+  color: #bd654d; }
+
+.moss h2 {
+  color: #cbaa99; }
+
+.moss h3 {
+  color: #9a9460; }
+
+.moss h4 {
+  color: #845f0e; }
+
+.moss h5 {
   color: #312f1a; }
 
-.fire {
+.fire h1 {
+  color: #c11d1d; }
+
+.fire h2 {
+  color: #c1461d; }
+
+.fire h3 {
+  color: #d28231; }
+
+.fire h4 {
+  color: #c5a645; }
+
+.fire h5 {
   color: #c4c545; }
 
-.darkfire {
+.darkfire h1 {
+  color: #fdcf58; }
+
+.darkfire h2 {
+  color: #757676; }
+
+.darkfire h3 {
+  color: #f27d0c; }
+
+.darkfire h4 {
+  color: #800909; }
+
+.darkfire h5 {
   color: #f07f13; }
 
-.hotcoals {
+.hotcoals h1 {
+  color: #1c1c1c; }
+
+.hotcoals h2 {
+  color: #ec4700; }
+
+.hotcoals h3 {
+  color: #fb5923; }
+
+.hotcoals h4 {
+  color: #f2ba0d; }
+
+.hotcoals h5 {
   color: #e5dcb6; }
 
-.icefire {
+.icefire h1 {
+  color: #fe7200; }
+
+.icefire h2 {
+  color: #e5e327; }
+
+.icefire h3 {
+  color: #77e2ff; }
+
+.icefire h4 {
+  color: #08b1e3; }
+
+.icefire h5 {
   color: #1485dc; }
 
-.firewater {
+.firewater h1 {
+  color: #ff0000; }
+
+.firewater h2 {
+  color: #ffa700; }
+
+.firewater h3 {
+  color: #ffffff; }
+
+.firewater h4 {
+  color: #00f9ff; }
+
+.firewater h5 {
   color: #00c1bc; }
 
-.hotcold {
+.hotcold h1 {
+  color: #0b0200; }
+
+.hotcold h2 {
+  color: #ff2700; }
+
+.hotcold h3 {
+  color: #2d4940; }
+
+.hotcold h4 {
+  color: #bcfffa; }
+
+.hotcold h5 {
   color: #ffffff; }
 
-.water {
+.water h1 {
+  color: #00c5ff; }
+
+.water h2 {
+  color: #56d0ff; }
+
+.water h3 {
+  color: #a3dcff; }
+
+.water h4 {
+  color: #a9f9ff; }
+
+.water h5 {
   color: #e1fffd; }
 
-.earth {
+.earth h1 {
+  color: #7c3817; }
+
+.earth h2 {
+  color: #c98f39; }
+
+.earth h3 {
+  color: #007c7c; }
+
+.earth h4 {
+  color: #caf2e5; }
+
+.earth h5 {
   color: #687237; }
 
-.wind {
+.wind h1 {
+  color: #ccd6cd; }
+
+.wind h2 {
+  color: #afbbbf; }
+
+.wind h3 {
+  color: #9fb2b0; }
+
+.wind h4 {
+  color: #bd99ae; }
+
+.wind h5 {
   color: #8c7e9f; }
 
-.armyCamo {
+.armyCamo h1 {
+  color: #604439; }
+
+.armyCamo h2 {
+  color: #9e9a75; }
+
+.armyCamo h3 {
+  color: #ac222e; }
+
+.armyCamo h4 {
+  color: #41533b; }
+
+.armyCamo h5 {
   color: #554840; }
 
-.armyBrown {
+.armyBrown h1 {
+  color: #4f3e37; }
+
+.armyBrown h2 {
+  color: #404f3d; }
+
+.armyBrown h3 {
+  color: #465840; }
+
+.armyBrown h4 {
+  color: #525e41; }
+
+.armyBrown h5 {
   color: #60654a; }
 
-.bookface {
+.bookface h1 {
+  color: #3b5998; }
+
+.bookface h2 {
+  color: #8b9dc3; }
+
+.bookface h3 {
+  color: #dfe3ee; }
+
+.bookface h4 {
+  color: #f7f7f7; }
+
+.bookface h5 {
   color: #ffffff; }
 
-.oogle {
+.oogle h1 {
+  color: #008744; }
+
+.oogle h2 {
+  color: #0057e7; }
+
+.oogle h3 {
+  color: #d62d20; }
+
+.oogle h4 {
+  color: #ffa700; }
+
+.oogle h5 {
   color: #ffffff; }
 
-.bootstring {
+.bootstring h1 {
+  color: #d9534f; }
+
+.bootstring h2 {
+  color: #f9f9f9; }
+
+.bootstring h3 {
+  color: #5bc0de; }
+
+.bootstring h4 {
+  color: #5cb85c; }
+
+.bootstring h5 {
   color: #428bca; }
 
-.tweeter {
+.tweeter h1 {
+  color: #326ada; }
+
+.tweeter h2 {
+  color: #d4d8d4; }
+
+.tweeter h3 {
+  color: #433e90; }
+
+.tweeter h4 {
+  color: #a19c9c; }
+
+.tweeter h5 {
   color: #d2d2d2; }
 
-.toob {
+.toob h1 {
+  color: #cc181e; }
+
+.toob h2 {
+  color: #2793e8; }
+
+.toob h3 {
+  color: #559900; }
+
+.toob h4 {
+  color: #666666; }
+
+.toob h5 {
   color: #f1f1f1; }
 
-.caucasion {
+.caucasion h1 {
+  color: #ffe0bd; }
+
+.caucasion h2 {
+  color: #ffcd94; }
+
+.caucasion h3 {
+  color: #eac806; }
+
+.caucasion h4 {
+  color: #ffad60; }
+
+.caucasion h5 {
   color: #ffe39f; }
 
-.bronzer {
+.bronzer h1 {
+  color: #ddc4be; }
+
+.bronzer h2 {
+  color: #ddb2a6; }
+
+.bronzer h3 {
+  color: #c1907f; }
+
+.bronzer h4 {
+  color: #a56b57; }
+
+.bronzer h5 {
   color: #a86048; }
 
-.gryffindor {
+.gryffindor h1 {
+  color: #740001; }
+
+.gryffindor h2 {
+  color: #ae0001; }
+
+.gryffindor h3 {
+  color: #eeba30; }
+
+.gryffindor h4 {
+  color: #d3a625; }
+
+.gryffindor h5 {
   color: #000000; }
 
-.ravenclaw {
+.ravenclaw h1 {
+  color: #0e1a40; }
+
+.ravenclaw h2 {
+  color: #222f5b; }
+
+.ravenclaw h3 {
+  color: #5d5d5d; }
+
+.ravenclaw h4 {
+  color: #946b2d; }
+
+.ravenclaw h5 {
   color: #000000; }
 
-.slytherin {
-  color: #000000; }
+.slytherin h1 {
+  color: #1a472a; }
 
-.hufflepuff {
-  color: #000000; }
+.slytherin h2 {
+  color: #2a623d; }
 
-.fe-man {
-  color: #790d0d; }
+.slytherin h3 {
+  color: #5d5d5d; }
 
-.poke {
-  color: #f0f0f0; }
-
-.rasta {
+.slytherin h4 {
   color: #aaaaaa; }
 
-.cappuccino {
+.slytherin h5 {
+  color: #000000; }
+
+.hufflepuff h1 {
+  color: #ecb939; }
+
+.hufflepuff h2 {
+  color: #f0c75e; }
+
+.hufflepuff h3 {
+  color: #726255; }
+
+.hufflepuff h4 {
+  color: #372e29; }
+
+.hufflepuff h5 {
+  color: #000000; }
+
+.fe-man h1 {
+  color: #771414; }
+
+.fe-man h2 {
+  color: #beba46; }
+
+.fe-man h3 {
+  color: #8bd3fb; }
+
+.fe-man h4 {
+  color: #bcb841; }
+
+.fe-man h5 {
+  color: #790d0d; }
+
+.poke h1 {
+  color: #ee1515; }
+
+.poke h2 {
+  color: #f00000; }
+
+.poke h3 {
+  color: #222224; }
+
+.poke h4 {
+  color: #f0f0f0; }
+
+.poke h5 {
+  color: #f0f0f0; }
+
+.rasta h1 {
+  color: #e20d0d; }
+
+.rasta h2 {
+  color: #f0d817; }
+
+.rasta h3 {
+  color: #3eb308; }
+
+.rasta h4 {
+  color: #bbbbbb; }
+
+.rasta h5 {
+  color: #aaaaaa; }
+
+.cappuccino h1 {
+  color: #4b3832; }
+
+.cappuccino h2 {
+  color: #854442; }
+
+.cappuccino h3 {
+  color: #fff4e6; }
+
+.cappuccino h4 {
+  color: #3c2f2f; }
+
+.cappuccino h5 {
   color: #be9b7b; }
 
-.icecream {
+.icecream h1 {
+  color: #bbcbdb; }
+
+.icecream h2 {
+  color: #9ebd9e; }
+
+.icecream h3 {
+  color: #dd855c; }
+
+.icecream h4 {
+  color: #f1e8ca; }
+
+.icecream h5 {
   color: #745151; }
 
-.mint {
+.mint h1 {
+  color: #c6c386; }
+
+.mint h2 {
+  color: #c3eee7; }
+
+.mint h3 {
+  color: #5b391e; }
+
+.mint h4 {
+  color: #87c6c3; }
+
+.mint h5 {
   color: #66bbae; }
 
-.lemonade {
+.lemonade h1 {
+  color: #ecc9d1; }
+
+.lemonade h2 {
+  color: #ecd5cf; }
+
+.lemonade h3 {
+  color: #f2e1d3; }
+
+.lemonade h4 {
+  color: #f0e8d5; }
+
+.lemonade h5 {
   color: #f0f2d5; }
 
-.melon {
+.melon h1 {
+  color: #a9ff85; }
+
+.melon h2 {
+  color: #7ab258; }
+
+.melon h3 {
+  color: #ff7e7e; }
+
+.melon h4 {
+  color: #ffa4ce; }
+
+.melon h5 {
   color: #f9547e; }
 
-.licorice {
+.licorice h1 {
+  color: #f7de82; }
+
+.licorice h2 {
+  color: #bbe0c4; }
+
+.licorice h3 {
+  color: #a286aa; }
+
+.licorice h4 {
+  color: #613246; }
+
+.licorice h5 {
   color: #251c3f; }
 
-.pencil {
+.pencil h1 {
+  color: #e3c783; }
+
+.pencil h2 {
+  color: #e7cb95; }
+
+.pencil h3 {
+  color: #2f2f2f; }
+
+.pencil h4 {
   color: #909090; }
 
-.money {
+.pencil h5 {
+  color: #909090; }
+
+.money h1 {
+  color: #3e9c35; }
+
+.money h2 {
+  color: #168118; }
+
+.money h3 {
+  color: #157811; }
+
+.money h4 {
+  color: #036704; }
+
+.money h5 {
   color: #084f09; }
 
-.globe {
+.globe h1 {
+  color: #eceadc; }
+
+.globe h2 {
+  color: #b8a488; }
+
+.globe h3 {
+  color: #8eb572; }
+
+.globe h4 {
+  color: #356392; }
+
+.globe h5 {
   color: #ff7913; }
 
-.coldsteel {
+.coldsteel h1 {
+  color: #000000; }
+
+.coldsteel h2 {
+  color: #656565; }
+
+.coldsteel h3 {
+  color: #bdbdbd; }
+
+.coldsteel h4 {
+  color: #00d7f6; }
+
+.coldsteel h5 {
   color: #00355c; }
 
-.lightRetro {
+.lightRetro h1 {
+  color: #e5c3c6; }
+
+.lightRetro h2 {
+  color: #e1e9b7; }
+
+.lightRetro h3 {
+  color: #f96161; }
+
+.lightRetro h4 {
+  color: #bcd2d0; }
+
+.lightRetro h5 {
   color: #d0b783; }
 
-.oldCatalog {
+.oldCatalog h1 {
+  color: #edc951; }
+
+.oldCatalog h2 {
+  color: #eb6841; }
+
+.oldCatalog h3 {
+  color: #cc2a36; }
+
+.oldCatalog h4 {
+  color: #4f372d; }
+
+.oldCatalog h5 {
   color: #00a0b0; }
 
 body {
