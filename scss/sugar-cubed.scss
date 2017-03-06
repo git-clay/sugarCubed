@@ -6,7 +6,11 @@
 @import "buttons";
 @import "images";
 @import "forms";
-
+@import "colors";
+.foo{
+	content: map-values($musk);
+	content: map-get($musk,'a')
+}
 
 /***COMPONENTS***/
 @import "dropdowns";

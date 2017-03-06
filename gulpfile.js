@@ -4,31 +4,42 @@ var gulp = require('gulp');
 var concat = require('gulp-concat'); //concat files from common directory
 var sass = require('gulp-sass'); //sass->css
 var minifyCss = require('gulp-minify-css'); //minify css
+var uglify = require('gulp-uglify');
 var rename = require('gulp-rename'); // allows to rename file (.min.css)
 // var sh = require('shelljs');
 
 var paths = {
-  sass: ['./scss/**/*.scss']
+  sass: ['./scss/**/*.scss',
+         './scss/*.scss'],
+  js: [ './js/**/*.js']
 };
 
-gulp.task('default', ['sass']);
-
 gulp.task('sass', function(done) {
-  gulp.src('./scss/ionic.app.scss')
+  gulp.src('./scss/sugar-cubed.scss')
     .pipe(sass({
       errLogToConsole: true
     }))
-    .pipe(gulp.dest('./www/css/'))
+    .pipe(gulp.dest('./dist/css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
     .pipe(rename({ extname: '.min.css' }))
-    .pipe(gulp.dest('./www/css/'))
+    .pipe(gulp.dest('./dist/css/'))
+    .on('end', done);
+});
+gulp.task('scripts', function(done) {
+  gulp.src(paths.js)
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('./dist/js/'))
+    .pipe(rename( 'sugar-cubed.min.js' ))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'))
     .on('end', done);
 });
 
 gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
+  gulp.watch(paths.js,['scripts'])
 });
 
 // gulp.task('install', ['git-check'], function() {
@@ -50,3 +61,6 @@ gulp.task('watch', function() {
 //   }
 //   done();
 // });
+
+gulp.task('default', ['sass','scripts','watch']);
+
