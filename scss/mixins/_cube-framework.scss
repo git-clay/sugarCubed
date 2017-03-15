@@ -1,0 +1,72 @@
+// Framework grid generation
+//
+// Used only by Bootstrap to generate the correct number of grid classes given
+// any value of `$grid-columns`.
+
+
+@mixin make-grid-columns($gutters: $grid-gutter-widths, $breakpoints: $grid-breakpoints) {
+  // Common properties for all breakpoints
+  %grid-column {
+    position: relative;
+    width: 100%;
+    min-height: 1px; // Prevent columns from collapsing when empty
+
+    @include make-gutters($gutters);
+  }
+
+@each $key, $val in $grid-cols { // iterates over phone,tab,lap,desk,tv
+@debug $breakpoints;
+    // $infix: breakpoint-infix($key, $breakpoints); //"-#{$name}"
+    $infix: -#{$key};
+    $bpVal:map-get($val,breakpoint);
+    $columns:map-get($val,column); 
+    @debug $breakpoints,$bpVal,$columns,$infix;
+      @for $i from 1 through $columns {
+        @debug 'start thisCol',$infix,$i;
+        .col#{$infix}-#{$i} { //ex: .col-phone-p-1
+          @extend %grid-column;
+        }
+      }
+      .col#{$infix} { //ex: .col-phone-p
+        @extend %grid-column;
+      }
+
+      @include media-breakpoint-up($key, $breakpoints) {
+        // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+        
+        .col#{$infix} {
+          flex-basis: 0;
+          flex-grow: 1;
+          max-width: 100%;
+        }
+        .col#{$infix}-auto {
+          flex: 0 0 auto;
+          width: auto;
+        }
+
+        @for $i from 1 through $columns {
+          .col#{$infix}-#{$i} {
+            @include make-col($i, $columns); //flex and max-width percentages
+          }
+        }
+
+        @each $modifier in (pull, push) {
+          @for $i from 0 through $columns {
+            .#{$modifier}#{$infix}-#{$i} {
+              @include make-col-modifier($modifier, $i, $columns)
+            }
+          }
+        }
+
+        // `$columns - 1` because offsetting by the width of an entire row isn't possible
+        @for $i from 0 through ($columns - 1) {
+          @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-xs-0
+            .offset#{$infix}-#{$i} {
+              @include make-col-modifier(offset, $i, $columns)
+            }
+          }
+        }
+      }
+    }
+  }
+// }

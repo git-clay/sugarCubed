@@ -1,0 +1,92 @@
+// /*
+
+// might be best to call a specific class based on screen size
+
+// */
+
+
+
+// // vertical phones
+// @media screen and (orientation:portrait) and (max-device-width: 414px) { 
+//     content: $grid-col, $grid-row;
+
+//   h1 {
+//     // font-size: $text-size / 5;
+    
+//     color: blue;
+//   }
+// }
+// // horizontal phones
+// @media screen and (orientation:landscape) and (max-device-width: 670px) {
+//     $grid-col:3;
+//     $grid-row:2;
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size / 5;
+
+    
+//     color: pink;
+//   }
+// }
+// //vertical tablets
+// @media screen and (orientation:portrait) and (min-device-width: 768px) {
+//  @mixin grid-col{
+//     $grid-col:3;
+//     $grid-row:5;
+//   }
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size * 5;
+
+    
+//     color: green;
+//   }
+// }
+// //horizontal tablets
+// @media screen and (orientation:landscape) and (min-device-width: 1024px) {
+//     $grid-col:5;
+//     $grid-row:3;
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size * 5;
+
+    
+//     color: orange
+//   }
+// }
+// // laptops
+// @media screen and (min-width: 1280px) {
+//     $grid-col:5;
+//     $grid-row:3;
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size * 5;
+
+    
+//     color: lightblue
+//   }
+// }
+// // desktops
+// @media screen and (min-width: 1366px) {
+//     $grid-col:7;
+//     $grid-row:5;
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size * 5;
+
+    
+//     color: red
+//   }
+// }
+// // tvs
+// @media screen and (min-width: 2000px) {
+//     $grid-col:15;
+//     $grid-row:7;
+//     content: $grid-col, $grid-row;
+//   h1 {
+//     // font-size: $text-size * 5;
+
+    
+//     color: brown
+//   }
+// }

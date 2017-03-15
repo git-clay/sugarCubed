@@ -2,19 +2,15 @@
 
 /***CORE***/
 @import "variables";
-@import "color-variables";
 @import "mixins";
 @import "buttons";
 @import "images";
 @import "forms";
+@import "cubes";
 
 
-@include color-scheme();
 
-body{
-background: black
 
-}
 /***COMPONENTS***/
 @import "dropdowns";
 @import "nav";

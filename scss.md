@@ -77,3 +77,5 @@ operators: Math in css
 partials: file snippet to clean up code (_partial.scss) then imported into another file (@import partial)
 
 
+
+@debug: console.log equivalent

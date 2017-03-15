@@ -1,4 +1,7 @@
 // Utilities
+@import "mixins/breakpoints";
+@import "mixins/cube-framework";
+@import "mixins/cubes";
 @import "mixins/hover";
 @import "mixins/image";
 @import "mixins/resize";
@@ -15,7 +18,6 @@
 @import "mixins/border";
 @import "mixins/transitions";
 @import "mixins/transformations";
-@import "mixins/colors";
 
 // Layout
 @import "mixins/clearfix";

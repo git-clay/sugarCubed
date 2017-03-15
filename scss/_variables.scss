@@ -1,0 +1,145 @@
+// options
+$enable-grid-classes:       true !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+) !default;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: (
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%
+) !default;
+
+// screen sizes
+$test:(
+	one: (1,2,3),
+	two: (9,8,7),
+	three: ('a','b','c')
+	);
+$grid-breakpoints: (
+  phone-p: 414px,
+  phone-l: 670px,
+  tab-p: 768px,
+  tab-l: 1024px,
+  lap: 1280px,
+  desk: 1360px,
+  tv: 2000px
+) !default;
+
+$grid-cols:(
+  phone-p: (column:2,breakpoint:414px),
+  phone-l: (column:3,breakpoint:670px),
+  tab-p: (column:3,breakpoint:768px),
+  tab-l: (column:5,breakpoint:1024px),
+  lap: (column:5,breakpoint:1280px),
+  desk: (column:7,breakpoint:1360px),
+  tv: (column:15,breakpoint:2000px)
+);
+// container
+$container-max-widths: (
+  phone-p: 404px,
+  phone-l: 660px,
+  tab-p: 738px,
+  tab-l: 1000px,
+  lap: 1250px,
+  desk: 1330px,
+  tv: 1970px
+) !default;
+// grid
+$grid-columns: 12 !default;
+$grid-gutter-width-base:     30px !default;
+$grid-gutter-widths: (
+  phone-p: $grid-gutter-width-base,
+  phone-l: $grid-gutter-width-base,
+  tab-p: $grid-gutter-width-base,
+  tab-l: $grid-gutter-width-base,
+  lap: $grid-gutter-width-base,
+  desk: $grid-gutter-width-base,
+  tv: $grid-gutter-width-base
+) !default;
+// $grid-col:2;
+$grid-row:3;
+
+// Fonts
+/*
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:   1.25rem !default;
+$font-size-sm:   .875rem !default;
+$font-size-xs:   .75rem !default;
+
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.5 !default;
+
+$font-size-h1: 2.5rem !default;
+$font-size-h2: 2rem !default;
+$font-size-h3: 1.75rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 1rem !default;
+
+$headings-margin-bottom: ($spacer / 2) !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   500 !default;
+$headings-line-height:   1.1 !default;
+$headings-color:         inherit !default;
+
+$display1-size: 6rem !default;
+$display2-size: 5.5rem !default;
+$display3-size: 4.5rem !default;
+$display4-size: 3.5rem !default;
+
+$display1-weight:     300 !default;
+$display2-weight:     300 !default;
+$display3-weight:     300 !default;
+$display4-weight:     300 !default;
+$display-line-height: $headings-line-height !default;
+
+$lead-font-size:   1.25rem !default;
+$lead-font-weight: 300 !default;
+
+$small-font-size: 80% !default;
+
+$text-muted: $gray-light !default;
+
+$blockquote-small-color:  $gray-light !default;
+$blockquote-font-size:    ($font-size-base * 1.25) !default;
+$blockquote-border-color: $gray-lighter !default;
+$blockquote-border-width: .25rem !default;
+
+$hr-border-color: rgba($black,.1) !default;
+$hr-border-width: $border-width !default;
+
+$mark-padding: .2em !default;
+
+$dt-font-weight: $font-weight-bold !default;
+
+$kbd-box-shadow:         inset 0 -.1rem 0 rgba($black,.25) !default;
+$nested-kbd-font-weight: $font-weight-bold !default;
+
+$list-inline-padding: 5px !default;*/
+
+// z-index
+

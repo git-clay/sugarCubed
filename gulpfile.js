@@ -4,6 +4,7 @@ var gutil = require('gulp-util');
 var concat = require('gulp-concat'); //concat files from common directory
 var sass = require('gulp-sass'); //sass->css
 var minifyCss = require('gulp-minify-css'); //minify css
+// var minifyCss = require('gulp-clean-css'); //minify css
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename'); // allows to rename file (.min.css)
 // var sh = require('shelljs');
