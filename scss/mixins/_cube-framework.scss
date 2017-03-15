@@ -16,7 +16,6 @@
 
 @each $key, $val in $grid-cols { // iterates over phone,tab,lap,desk,tv
 @debug $breakpoints;
-    // $infix: breakpoint-infix($key, $breakpoints); //"-#{$name}"
     $infix: -#{$key};
     $bpVal:map-get($val,breakpoint);
     $columns:map-get($val,column); 
@@ -69,4 +68,3 @@
       }
     }
   }
-// }
